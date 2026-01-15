@@ -1,0 +1,35 @@
+USE 050824_BAR_sakila;  --  Необходимо заменить это имя на имя собственной БД
+SELECT * FROM actor;
+SELECT * FROM address;
+SELECT * FROM category;
+SELECT * FROM city;
+SELECT * FROM country;
+SELECT * FROM customer;
+SELECT * FROM film;
+SELECT * FROM film_actor;
+SELECT * FROM film_category;
+SELECT * FROM inventory;
+SELECT * FROM `language`;
+SELECT * FROM payment;
+SELECT * FROM rental;
+SELECT * FROM search_results;
+SELECT * FROM staff;
+SELECT * FROM store;
+
+-- 1. Работаем с базой данных sakila (fiction movies database).
+
+-- 2. Выведите количество фильмов в таблице film.
+
+-- 3. Выведите список категорий фильмов.
+
+-- 4. Выведите все фильмы в категории на ваше усмотрение, например, все комедии (Comedy).
+
+-- 5. Выведите список всех акторов с количеством фильмов в которых снимался каждый.
+
+-- 6. Выведите список языков и количество фильмов на каждом языке.
+
+-- 7. Выведите имя актера, который снялся в самом большом количестве фильмов.
+
+-- 8. Выведите актеров, которые снялись более, чем в 5 фильмах.
+
+-- 9. Выведите список актеров по их рангу в зависимости от количестве фильмов.
